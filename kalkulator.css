@@ -1,0 +1,103 @@
+body { 
+    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(20,31,145,1) 26%, rgba(0,212,255,1) 100%);
+    color: rgb(70, 37, 37);
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+
+body > div {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+header {
+    color: #eaebf2;
+    font-size: larger;
+    text-shadow: 2px 2px 2px grey;
+}
+
+/* input [type=text] { */
+    /* width: 50px; */
+    /* height: 50px; */
+    /* margin-left: 20px;  */
+    /* background-color: firebrick; */
+    /* font-size: 2em; */
+}
+
+/* input [type=submit] { */
+    /* width: 25px; */
+    /* height: 25px; */
+}
+
+#calculate {
+    border: 10px dotted green;
+}
+
+.entryArea {
+    background: linear-gradient(to top right, #33ccff 0%, #ffccff 70%);
+    padding: 15px;
+    /* margin: 4px; */
+    border-radius: 15px;
+    width: 750px;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 10.2), 0 12px 30px 0 rgba(0, 0, 0, 15.19);
+    margin-top: 5px;
+
+}
+
+input[type=text] {
+  background-color: #efcfee;
+  box-shadow: 4px 5px 1px silver;
+  border-radius: 3px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+}
+
+#typeOperand1 {
+    background-color: #efcfee;
+    box-shadow: 4px 5px 1px silver;
+    border: 2px solid rgb(116, 98, 98);
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+}
+#typeOperand2 {
+    background-color: #efcfee;
+    box-shadow: 4px 5px 1px silver;
+    border: 2px solid rgb(116, 98, 98);
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#send {
+    background-color: #efcfee;
+    box-shadow: 4px 5px 1px silver;
+    border: 2px solid rgb(116, 98, 98);
+    border-radius: 3px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+.chooseOperator {
+    font-size: 18px;
+}
+
+#finalOperation {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+
+}
+
+#result {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+
+
+    

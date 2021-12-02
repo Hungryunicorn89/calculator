@@ -1,0 +1,81 @@
+<!DOCTYPE HTML> 
+<html> 
+    <head> 
+        <title> Super calculator </title>
+        
+        
+    </head>
+    <body>
+
+        <div id = "calculate"> </div>
+        <header>
+            <h1> Super calculator in JS </h1>
+            <p> Super calculator shows result a different mathematical operations </p>
+        </header>
+        <div class = "entryArea"> 
+            <h2> Step 1 <br/>  Choose the first operand </h2>
+            <input type = "text" id = "operand1" value = "" placeholder="first operand"> 
+            <select id="typeOperand1"> 
+                <option value="number"> number </option>
+                <option value="string"> word </option>
+            </select>
+        </div>
+
+        <div class="entryArea"> 
+            <h2> Step 2 <br/> Choose the arithmetic operator </h2>
+            <div class="chooseOperator">
+                <h2> Arithmetic operators: </h2>
+                    <input type="radio" name="operator" value="+" checked >+ &nbsp;
+                    <input type="radio" name="operator" value="-" checked >- &nbsp;
+                    <input type="radio" name="operator" value="*" checked >* &nbsp;
+                    <input type="radio" name="operator" value="/" checked >/ &nbsp;
+                    <input type="radio" name="operator" value="%" checked >% &nbsp;
+
+                <h2> Concatenation:</h2>
+                    <input type="radio" name="operator" value="concanetation" checked >+ (concatenation) &nbsp; 
+                
+                <h2> Comparison operators: </h2> 
+                    <input type="radio" name="operator" value="==">==&nbsp;
+                    <input type="radio" name="operator" value="===">===&nbsp;
+                    <input type="radio" name="operator" value="!=">!=&nbsp;
+                    <input type="radio" name="operator" value="!==">!==&nbsp;
+                    <input type="radio" name="operator" value=">">&gt;&nbsp;
+                    <input type="radio" name="operator" value=">=">&gt;=&nbsp;
+                    <input type="radio" name="operator" value="<">&lt;&nbsp;
+                    <input type="radio" name="operator" value=">=">&lt;=&nbsp;
+            </div> 
+        </div>
+        
+        <div class="entryArea"> 
+            <h2> Step 3  <br/> Choose the second operand </h2>
+                <input type="text" id="operand2" value="" placeholder="second operand"> 
+                <select id="typeOperand2"> 
+                    <option value="number">number </option>
+                    <option value="string">word </option>
+                </select>
+        </div>
+
+        <div class="entryArea"> 
+            <h2> Step 4 <br/> Result </h2>
+            <input type="submit" id="send" value="Calculate">  
+        </div>
+ 
+
+        <div class="entryArea"> 
+            <h2> Result </h2>
+            
+            <h2> Operation: </h2>
+            <span id="finalOperation"> hmm?!</span>
+
+            <h2> Result: </h2>
+            <span id="result"> What do you think? </span>
+            
+        </div>
+        <script src="kalkulator.js"> </script>
+        <link rel="stylesheet" href="kalkulator.css"> 
+        
+
+    </body>
+
+
+</html>
